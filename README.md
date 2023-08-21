@@ -15,7 +15,7 @@ are returned as results.
 
 <br>
 
-Here's a breakdown of what the code does:
+Here's a breakdown of what app.py does:
 
 1. The code imports necessary libraries, including 
 FastAPI, TensorFlow, Hugging Face Transformers, 
@@ -65,3 +65,9 @@ The app takes user prompts,
 processes them in parallel, generates text using 
 the specified models, and returns the generated text 
 along with the throughput rate for each model.
+
+
+<br>
+
+The notebooks for both the GPT-2 model deployment and the 
+LLAMA model training are also included.
