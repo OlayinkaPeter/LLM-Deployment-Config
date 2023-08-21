@@ -88,7 +88,7 @@ async def use_llama_model(model_name, prompts, task="text-generation", framework
 def load_specified_model(model_name):
     # Load saved model
     DEFAULT_FUNCTION_KEY = "serving_default"
-    loaded_model = tf.saved_model.load(model_name)
+    loaded_model = tf.saved_model.load(f"gpt2_model/1692578534/{model_name}")
     inference_func = loaded_model.signatures[DEFAULT_FUNCTION_KEY]
     print(loaded_model)
     print(inference_func)
