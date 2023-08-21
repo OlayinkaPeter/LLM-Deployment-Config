@@ -9,6 +9,22 @@ allow users to input prompts and obtain generated
 text based on those prompts using the respective 
 models. 
 
+The models employ the XLA (Accelerated Linear Algebra) 
+acceleration function to enhance the speed and efficiency 
+of the text generation process. 
+
+XLA is a specialized compiler that optimizes 
+linear algebra operations in TensorFlow, the underlying 
+framework of the models. By utilizing the XLA acceleration 
+function, the models can leverage hardware acceleration 
+and advanced optimization techniques, resulting in faster 
+and more efficient text generation. 
+
+This optimization plays a crucial role in achieving 
+higher throughput and reducing computational time, 
+ultimately enhancing the overall performance of the 
+text generation process.
+
 The generated text and the 
 throughput (in terms of iterations per second) 
 are returned as results.
